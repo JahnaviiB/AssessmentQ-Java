@@ -9,8 +9,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
-public class Intuit {
-    public Intuit() {
+public class NoCommonNames {
+    public NoCommonNames() {
     }
 
     public static List<String> nonCommonNames(List<String> names1, List<String> names2) {
