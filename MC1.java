@@ -1,12 +1,12 @@
-class TreeNode {
+/*class TreeNode {
     int val;
-    TreeNode left;
-    TreeNode right;
+    treeNode left;
+    treeNode right;
 
     TreeNode(int val) { this.val = val; this.left = null; this.right = null;}
 }
 public class MC1 {
-    public int rangeSumBST(TreeNode root, int low, int high){
+    public int rangeSumBST(treeNode root, int low, int high){
         if(root == null) return 0;
         int sum =0;
 
@@ -25,12 +25,12 @@ public class MC1 {
     }
 
     public static void main(String[] args) {
-        TreeNode root1 = new TreeNode(10);
-        root1.left = new TreeNode(5);
-        root1.right = new TreeNode(15);
-        root1.left.left = new TreeNode(3);
-        root1.left.right = new TreeNode(7);
-        root1.right.right = new TreeNode(18);
+        treeNode root1 = new treeNode(10);
+        root1.left = new treeNode(5);
+        root1.right = new treeNode(15);
+        root1.left.left = new treeNode(3);
+        root1.left.right = new treeNode(7);
+        root1.right.right = new treeNode(18);
 
         MC1 bstRangeSum = new MC1();
         int result1 = bstRangeSum.rangeSumBST(root1, 7, 15);
@@ -46,3 +46,4 @@ public class MC1 {
     }
 
 }
+*/
